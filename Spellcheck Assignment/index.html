@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Spell Check</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Spell Check Assignment</h1>
+  <hr>
+  <h2>Single Word Spellcheck</h2>
+  <p>Enter a word and then click the button of the algorithim you would like to use to check if the word you entered is
+    in the dictionary file.</p>
+  <input placeholder="Input here..." id="wordcheck" type="text"></input>
+  <button id="lsw">Linear Search</button>
+  <button id="bsw">Binary Search</button>
+  <p>Search - <span id="search">N/A</span></p>
+  <p>Word - <span id="found">N/A</span></p>
+  <p>Time(ms) - <span id="time">N/A</span></p>
+  <hr>
+  <h2>Alice in Wonderland Spell Check</h2>
+  <p>Enter a word and then click the button of the algorithim you would like to use to check if the word you entered
+    from Alice in Wonderland is in the dictionary file.</p>
+  <button id="lsa">Linear Search</button>
+  <button id="bsa">Binary Search</button>
+  <p>Search - <span id = "alicesearch"></span></p>
+  <p>Words not found:<span id = "aliceword"></span></p>
+  <p>Time(ms) - <span id = "alicetime"></span></p>
+  <!-- Load JavaScript -->
+  <script src="js/file-loader.js"></script>
+  <script src='js/main.js'></script>
+</body>
+
+</html>
